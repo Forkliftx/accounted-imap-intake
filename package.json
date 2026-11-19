@@ -1,0 +1,10 @@
+{
+  "name": "imap-intake",
+  "version": "1.0.0",
+  "description": "Pollar ett IMAP-konto och laddar upp PDF/bildbilagor till Accounted via MCP-dokumentflödet",
+  "type": "module",
+  "dependencies": {
+    "imapflow": "^1.0.182",
+    "mailparser": "^3.7.2"
+  }
+}

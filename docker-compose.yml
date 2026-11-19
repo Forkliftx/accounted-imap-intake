@@ -1,0 +1,10 @@
+services:
+  imap-intake:
+    build: .
+    container_name: imap-intake
+    restart: unless-stopped
+    # All konfiguration kommer från .env (se .env.example)
+    env_file: .env
+    volumes:
+      - ./data:/data
+    # Ingen exponerad port: endast utgående trafik (IMAP + Accounted)

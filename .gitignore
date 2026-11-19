@@ -1,0 +1,7 @@
+# Hemligheter och lokal data — aldrig i git/arkiv
+.env
+data/
+*.eml
+send-test.py
+test-underlag.pdf
+scan.sh
