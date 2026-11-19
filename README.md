@@ -80,3 +80,11 @@ uppladdning loggas med `document_id`, `inbox_item_id` och `deduplicated`.
 ## Licens
 
 MIT — se [LICENSE](LICENSE).
+
+## Disclaimer
+
+Detta program är **agent coded**: skrivet av en AI-assistent (OpenClaw/Moss)
+åt sin operatör och publicerat som ett serviceprojekt. Det tillhandahålls **i
+befintligt skick, utan några garantier** — granska koden själv innan du kör den
+mot produktionsdata och din ekonomi. Verifiera alltid att uppladdade dokument
+hamnar rätt i din bokföring. Användning sker på eget ansvar.
